@@ -1,0 +1,89 @@
+Modelo utilizado: qwen3.5:0.8b
+Total de casos: 10
+
+===== RESULTADOS V1 =====
+Caso 1: CORRECTO
+Mensaje: Quiero dos empanadas y un jugo para recoger a las 10:00.
+Esperado: PEDIDO | Obtenido: PEDIDO
+
+Caso 2: CORRECTO
+Mensaje: Gußrdame un cafÚ con leche para las 9 de la ma±ana.
+Esperado: PEDIDO | Obtenido: PEDIDO
+
+Caso 3: FALLO
+Mensaje: Quiero pedir algo para desayunar, ┐quÚ me recomiendas?
+Esperado: CONSULTA | Obtenido: PEDIDO
+
+Caso 4: FALLO
+Mensaje: ┐Hasta quÚ hora puedo hacer pedidos?
+Esperado: CONSULTA | Obtenido: PEDIDO
+
+Caso 5: CORRECTO
+Mensaje: Cancela mi pedido de dos empanadas.
+Esperado: CANCELACION | Obtenido: CANCELACION
+
+Caso 6: FALLO
+Mensaje: Ya no voy a poder pasar por lo que pedÝ.
+Esperado: CANCELACION | Obtenido: RECLAMO
+
+Caso 7: CORRECTO
+Mensaje: Me descontaron el dinero de la tarjeta, pero no recibÝ mi pedido.
+Esperado: RECLAMO | Obtenido: RECLAMO
+
+Caso 8: CORRECTO
+Mensaje: El jugo que me entregaron estaba en mal estado.
+Esperado: RECLAMO | Obtenido: RECLAMO
+
+Caso 9: CORRECTO
+Mensaje: Lo de siempre para las 10:00.
+Esperado: PEDIDO | Obtenido: PEDIDO
+
+Caso 10: CORRECTO
+Mensaje: No aparece mi pedido, ┐quÚ pas¾?
+Esperado: RECLAMO | Obtenido: RECLAMO
+
+Resultado v1: 7/10 casos correctos
+
+===== RESULTADOS V2 =====
+Caso 1: CORRECTO
+Mensaje: Quiero dos empanadas y un jugo para recoger a las 10:00.
+Esperado: PEDIDO | Obtenido: PEDIDO
+
+Caso 2: CORRECTO
+Mensaje: Gußrdame un cafÚ con leche para las 9 de la ma±ana.
+Esperado: PEDIDO | Obtenido: PEDIDO
+
+Caso 3: FALLO
+Mensaje: Quiero pedir algo para desayunar, ┐quÚ me recomiendas?
+Esperado: CONSULTA | Obtenido: PEDIDO
+
+Caso 4: CORRECTO
+Mensaje: ┐Hasta quÚ hora puedo hacer pedidos?
+Esperado: CONSULTA | Obtenido: CONSULTA
+
+Caso 5: CORRECTO
+Mensaje: Cancela mi pedido de dos empanadas.
+Esperado: CANCELACION | Obtenido: CANCELACION
+
+Caso 6: CORRECTO
+Mensaje: Ya no voy a poder pasar por lo que pedÝ.
+Esperado: CANCELACION | Obtenido: CANCELACION
+
+Caso 7: CORRECTO
+Mensaje: Me descontaron el dinero de la tarjeta, pero no recibÝ mi pedido.
+Esperado: RECLAMO | Obtenido: RECLAMO
+
+Caso 8: CORRECTO
+Mensaje: El jugo que me entregaron estaba en mal estado.
+Esperado: RECLAMO | Obtenido: RECLAMO
+
+Caso 9: CORRECTO
+Mensaje: Lo de siempre para las 10:00.
+Esperado: PEDIDO | Obtenido: PEDIDO
+
+Caso 10: CORRECTO
+Mensaje: No aparece mi pedido, ┐quÚ pas¾?
+Esperado: RECLAMO | Obtenido: RECLAMO
+
+Resultado v2: 9/10 casos correctos
+

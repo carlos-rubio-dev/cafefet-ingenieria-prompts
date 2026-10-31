@@ -1,0 +1,28 @@
+Prompt mejorado — CafeFET
+
+1. Qué quiero
+Crear una función llamada `crear_pedido` en Python para validar si un estudiante puede realizar un pedido en CafeFET.
+
+2. Para quién
+La función será utilizada por el sistema de pedidos de la cafetería de la Fundación Escuela Tecnológica de Neiva (CafeFET).
+
+3. Contexto
+La función recibe un estudiante con su saldo, una lista de productos y la hora del pedido. Cada producto tiene un precio y un estado que indica si está agotado. El pedido debe cumplir las reglas del negocio.
+
+4. Formato de salida
+Entrega el código completo en Python, dentro de un bloque de código, y después explica brevemente cada validación realizada.
+
+5. Restricciones
+
+Las siguientes son las reglas de negocio que debes respetar:
+
+<reglas>
+- Los pedidos solo se reciben de lunes a sábado, de 7:00 a 18:00.
+- Se permite un máximo de 5 productos por pedido.
+- El pago se realiza con el saldo del carné del estudiante.
+- El saldo nunca puede quedar negativo.
+- Los productos agotados no se pueden pedir.
+- Si el pedido no se recoge dentro de los 30 minutos siguientes, se cancela y se devuelve el saldo.
+</reglas>
+
+No inventes reglas adicionales. Si faltan datos para implementar alguna regla, indícalo claramente en lugar de inventarlos. Utiliza Python, no JavaScript.

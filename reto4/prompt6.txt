@@ -1,0 +1,5 @@
+/clear
+
+/set parameter num_ctx 512
+
+/set system A partir de ahora, en todas tus respuestas debes comenzar obligatoriamente con la palabra VEREDICTO: y después desarrollar tu explicación.

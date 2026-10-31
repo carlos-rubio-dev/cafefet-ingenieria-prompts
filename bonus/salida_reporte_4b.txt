@@ -1,0 +1,90 @@
+
+==================================================
+CASO 1: Quiero un cafÚ con leche y dos empanadas para recoger a las 9:00.
+{
+  "tipo": "pedido",
+  "productos": [
+    {
+      "nombre": "cafÚ con leche",
+      "cantidad": 1
+    },
+    {
+      "nombre": "empanadas",
+      "cantidad": 2
+    }
+  ],
+  "hora_recogida": "09:00",
+  "observaciones": null,
+  "requiere_aclaracion": false,
+  "aclaracion": null
+}
+
+==================================================
+CASO 2: Necesito tres jugos de naranja para las 10 de la ma±ana.
+{
+  "tipo": "pedido",
+  "productos": [
+    {
+      "nombre": "jugo de naranja",
+      "cantidad": 3
+    }
+  ],
+  "hora_recogida": "10:00",
+  "observaciones": null,
+  "requiere_aclaracion": false,
+  "aclaracion": null
+}
+
+==================================================
+CASO 3: Quiero pedir algo para comer, todavÝa no sÚ quÚ.
+{
+  "tipo": "consulta",
+  "productos": [],
+  "hora_recogida": null,
+  "observaciones": null,
+  "requiere_aclaracion": false,
+  "aclaracion": null
+}
+
+==================================================
+CASO 4: Me gustarÝa dos empanadas, pero no recuerdo a quÚ hora puedo recogerlas.
+{
+  "tipo": "pedido",
+  "productos": [
+    {
+      "nombre": "empanada",
+      "cantidad": 2
+    }
+  ],
+  "hora_recogida": null,
+  "observaciones": null,
+  "requiere_aclaracion": true,
+  "aclaracion": "Falta la hora de recogida."
+}
+
+==================================================
+CASO 5: ┐QuÚ productos tienen disponibles hoy?
+{
+  "tipo": "consulta",
+  "productos": [],
+  "hora_recogida": null,
+  "observaciones": null,
+  "requiere_aclaracion": false,
+  "aclaracion": null
+}
+
+==================================================
+CASO 6: Cancela mi pedido de un cafÚ que iba a recoger a las 11:00.
+{
+  "tipo": "cancelacion",
+  "productos": [
+    {
+      "nombre": "cafÚ",
+      "cantidad": null
+    }
+  ],
+  "hora_recogida": null,
+  "observaciones": null,
+  "requiere_aclaracion": false,
+  "aclaracion": null
+}

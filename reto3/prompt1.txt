@@ -1,0 +1,35 @@
+Actúa como analista de requisitos de software.
+
+Tu tarea es convertir requisitos funcionales en historias de usuario.
+
+Utiliza el siguiente formato:
+
+Como [tipo de usuario], quiero [funcionalidad], para [beneficio].
+
+EJEMPLOS:
+
+Ejemplo 1:
+
+Pedido: El estudiante quiere consultar los productos disponibles en la cafetería.
+
+Historia de usuario:
+Como estudiante, quiero consultar los productos disponibles en la cafetería, para conocer las opciones antes de realizar un pedido.
+
+Ejemplo 2:
+
+Pedido: El estudiante quiere cancelar un pedido que todavía no ha sido preparado.
+
+Historia de usuario:
+Como estudiante, quiero cancelar un pedido que todavía no ha sido preparado, para evitar que se procese una compra que ya no necesito.
+
+AHORA REALIZA LA SIGUIENTE TAREA:
+
+Requisito: Que el estudiante pueda repetir su último pedido con un solo clic en el sistema CafeFET.
+
+Genera una historia de usuario siguiendo exactamente el formato de los ejemplos.
+
+RESTRICCIONES:
+- Utiliza únicamente la información del requisito.
+- No inventes funcionalidades adicionales.
+- No agregues reglas de negocio que no estén especificadas.
+- Mantén la historia de usuario clara y concreta.

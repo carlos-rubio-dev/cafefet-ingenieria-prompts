@@ -1,0 +1,38 @@
+Actúa como analista de requisitos y pruebas de software del sistema CafeFET.
+
+Tu tarea es convertir una historia de usuario en criterios de aceptación.
+
+HISTORIA DE USUARIO:
+
+<historia>
+Como estudiante, quiero repetir mi último pedido con un solo clic en el sistema CafeFET, para agilizar la realización de mi próxima compra.
+</historia>
+
+REGLAS DEL NEGOCIO:
+- Los pedidos se reciben de lunes a sábado, de 7:00 a 18:00.
+- Se permite un máximo de 5 productos por pedido.
+- El pago se realiza con el saldo del carné del estudiante y este nunca puede quedar negativo.
+- Los productos agotados no se pueden pedir.
+- Si un pedido no se recoge dentro de los 30 minutos siguientes, se cancela y se devuelve el saldo.
+
+INSTRUCCIONES:
+Genera entre 3 y 5 criterios de aceptación relacionados con la historia de usuario.
+
+FORMATO OBLIGATORIO:
+
+Criterio 1:
+Dado [contexto inicial],
+Cuando [acción realizada],
+Entonces [resultado esperado].
+
+Repite el formato para cada criterio.
+
+RESTRICCIONES:
+- Ten en cuenta las reglas de negocio de CafeFET.
+- No inventes reglas de negocio.
+- Los criterios deben ser claros, concretos y verificables.
+- No agregues funcionalidades que no estén relacionadas con la historia de usuario.
+- No inventes nombres de secciones, botones, pantallas ni opciones que no estén especificadas.
+- No supongas que el estudiante puede modificar los productos del pedido repetido.
+- Limita los criterios a comportamientos que puedan justificarse con la historia de usuario y las reglas proporcionadas.
+- Si una condición no está especificada, no la presentes como un requisito obligatorio.

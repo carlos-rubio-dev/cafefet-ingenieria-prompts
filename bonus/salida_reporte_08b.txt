@@ -1,0 +1,95 @@
+
+==================================================
+CASO 1: Quiero un cafÚ con leche y dos empanadas para recoger a las 9:00.
+{
+  "tipo": "pedido",
+  "productos": [
+    {
+      "nombre": "cafÚ con leche",
+      "cantidad": 1
+    },
+    {
+      "nombre": "empanadas",
+      "cantidad": 2
+    }
+  ],
+  "hora_recogida": "9:00",
+  "observaciones": null,
+  "requiere_aclaracion": false,
+  "aclaracion": null
+}
+
+==================================================
+CASO 2: Necesito tres jugos de naranja para las 10 de la ma±ana.
+{
+  "tipo": "pedido",
+  "productos": [
+    {
+      "nombre": "Jugo de naranja",
+      "cantidad": 3
+    }
+  ],
+  "hora_recogida": null,
+  "observaciones": null,
+  "requiere_aclaracion": false,
+  "aclaracion": null
+}
+
+==================================================
+CASO 3: Quiero pedir algo para comer, todavÝa no sÚ quÚ.
+{
+  "tipo": "pedido",
+  "productos": [
+    {
+      "nombre": "algo",
+      "cantidad": null
+    }
+  ],
+  "hora_recogida": null,
+  "observaciones": null,
+  "requiere_aclaracion": true,
+  "aclaracion": "No se especific¾ quÚ producto pedir. Se requiere aclaraci¾n de la informaci¾n."
+}
+
+==================================================
+CASO 4: Me gustarÝa dos empanadas, pero no recuerdo a quÚ hora puedo recogerlas.
+{
+  "tipo": "pedido",
+  "productos": [
+    {
+      "nombre": "Empanada",
+      "cantidad": 2
+    }
+  ],
+  "hora_recogida": null,
+  "observaciones": null,
+  "requiere_aclaracion": true,
+  "aclaracion": "No se especific¾ la hora de recogida."
+}
+
+==================================================
+CASO 5: ┐QuÚ productos tienen disponibles hoy?
+{
+  "tipo": "consulta",
+  "productos": [],
+  "hora_recogida": null,
+  "observaciones": null,
+  "requiere_aclaracion": true,
+  "aclaracion": "No se proporcion¾ la hora de recogida."
+}
+
+==================================================
+CASO 6: Cancela mi pedido de un cafÚ que iba a recoger a las 11:00.
+{
+  "tipo": "pedido",
+  "productos": [
+    {
+      "nombre": "cafÚ",
+      "cantidad": 1
+    }
+  ],
+  "hora_recogida": "11:00",
+  "observaciones": null,
+  "requiere_aclaracion": false,
+  "aclaracion": null
+}

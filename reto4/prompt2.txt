@@ -1,0 +1,24 @@
+Evalúa paso a paso la siguiente función de CafeFET usando estos datos concretos:
+
+- El estudiante tiene un saldo de $10.000.
+- El pedido contiene 6 productos.
+- Cada producto cuesta $1.000.
+- La hora del pedido es 10:00.
+
+Analiza cada condición if en el orden en que aparece. Para cada una, indica:
+1. Qué está verificando.
+2. Qué valores utiliza.
+3. Cuánto da la operación.
+4. Si la condición es verdadera o falsa.
+5. Si la función continúa o devuelve False.
+
+Después, explica qué resultado devuelve finalmente la función y si ese pedido debería permitirse según las reglas de CafeFET. No inventes reglas adicionales.
+
+Función:
+
+def crear_pedido(est, productos, hora):
+    if len(productos) > 6:
+        return False
+    if est.saldo - sum(p.precio for p in productos) < -1000:
+        return False
+    return 7 <= hora <= 18
